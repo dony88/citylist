@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/city_position_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="15.0dip"
+        android:textColor="#FF000000"
+        android:textSize="15sp" >
+    </TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line" >
+    </View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:padding="5.0dip" >
+
+        <TextView
+            android:id="@+id/enter_yaoli_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/ic_citylist_gps"
+            android:drawablePadding="7.0dip"
+            android:gravity="left"
+            android:textColor="#FF000000"
+            android:textSize="18.0dip" >
+        </TextView>
+
+        <Button
+            android:id="@+id/enter_yaoli_bt"
+            android:layout_width="100.0dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30.0dip"
+            android:background="@drawable/bg_enter_yaoli"
+            android:textColor="#FFFFFFFF"
+            android:textSize="18.0sp" >
+        </Button>
+
+        <ProgressBar
+            android:id="@+id/get_current_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="right"
+            android:layout_marginRight="72.0dip"
+            android:background="@drawable/btn_orange_unable"
+            android:visibility="gone" >
+        </ProgressBar>
+    </RelativeLayout>
+
+</LinearLayout>

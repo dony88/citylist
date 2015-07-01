@@ -1,0 +1,44 @@
+8
+
+dir
+1894
+svn://192.168.2.117/%E9%A1%B9%E7%9B%AE/%E7%89%B5%E4%BF%A1%E6%9C%89%E7%A4%BC/Code/Android/2.1/ShakeGift/libs/armeabi
+svn://192.168.2.117
+
+
+
+2013-03-19T07:52:04.422156Z
+1865
+yanbo
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4d409f3e-cbf4-8247-ad37-963fbe5af3bf
+
+libBMapApiEngine_v1_3_2.so
+file
+
+
+
+
+2013-03-25T07:58:38.788616Z
+c711829e4bb28e1f3d525dfeae085d63
+2013-03-19T07:52:04.422156Z
+1865
+yanbo
+has-props
+
+
+svn:needs-lock
+

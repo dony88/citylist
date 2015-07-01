@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">yaolicitylist</string>
+    <string name="city_query_label">城市查询</string>
+    <string name="search_hint">输入城市中文名或拼音</string>
+    <string name="net_work_disable">网络不可用</string>
+    <string name="hot_city_label">热门城市</string>
+    <string name="city_list_label">城市列表</string>
+    <string name="enter_yaoli_label">立即进入摇礼</string>
+    <string name="location_city_label">定位到的城市</string>
+
+</resources>
